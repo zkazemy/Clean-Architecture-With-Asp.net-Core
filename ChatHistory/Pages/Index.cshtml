@@ -1,0 +1,27 @@
+﻿@page
+@using global::Domain.Enums
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<form asp-controller="Home" method="post">
+
+    <table border="1" cellpadding="10">
+        @foreach (var granularity in @Model.Granularities)
+        {
+            <tr>
+                <td>@granularity.Value</td>
+                <td>@granularity.Text</td>
+                <td>
+                    <a asp-action="ShowHistory"
+                       asp-controller="Home"
+                       asp-route-id="@granularity.Value" asp->
+                        Show
+                    </a>
+                </td>
+            </tr>
+        }
+        
+    </table>
+</form>

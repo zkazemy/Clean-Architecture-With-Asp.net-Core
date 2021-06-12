@@ -1,0 +1,25 @@
+﻿@page
+@using Domain.Entities
+@model ChatHistory.Views.Home.HourlyHistoryModel
+@{
+}
+
+@if (ViewBag.HourlyData != null)
+{
+    <table border="1" cellpadding="10">
+        @foreach (var hourlyItem in ViewBag.HourlyData)
+        {
+            <tr>
+                <td>
+                    <p style="color :red"> @hourlyItem.Key</p>
+                    @foreach (var item in hourlyItem.Value)
+                    {
+                        <p style="margin-left: 30px">
+                            @item
+                        </p>
+                    }
+                </td>
+            </tr>
+        }
+    </table>
+}

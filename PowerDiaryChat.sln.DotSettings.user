@@ -1,0 +1,21 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5f7705f5_002D17e5_002D4c5d_002D9112_002D2e2738af710c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from ActionTypeTest.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;ProjectFile&gt;4CCDF9D2-1CE2-4C89-86A8-506306DD42CC/f:ActionTypeTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;4CCDF9D2-1CE2-4C89-86A8-506306DD42CC/f:UserTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;4CCDF9D2-1CE2-4C89-86A8-506306DD42CC/f:EventTest.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f919ba66_002D219c_002D4433_002Dbb34_002Dadbec765f62d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from ActionTypeTest.cs #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;ProjectFile&gt;4CCDF9D2-1CE2-4C89-86A8-506306DD42CC/f:ActionTypeTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;4CCDF9D2-1CE2-4C89-86A8-506306DD42CC/f:EventTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;4CCDF9D2-1CE2-4C89-86A8-506306DD42CC/f:UserTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::4CCDF9D2-1CE2-4C89-86A8-506306DD42CC::.NETCoreApp,Version=v3.1::UnitTest.EventServiceTest.GetEventHistoryByMinute_WhenHistoryIsEmpty&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::4CCDF9D2-1CE2-4C89-86A8-506306DD42CC::.NETCoreApp,Version=v3.1::UnitTest.ExtensionTest.FormatDateTime(UnitTest.ExtensionTest+TestData)&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::4CCDF9D2-1CE2-4C89-86A8-506306DD42CC::.NETCoreApp,Version=v3.1::UnitTest.ExtensionTest.FormatDateTime&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;ProjectFile&gt;4CCDF9D2-1CE2-4C89-86A8-506306DD42CC/f:EventServiceTest.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

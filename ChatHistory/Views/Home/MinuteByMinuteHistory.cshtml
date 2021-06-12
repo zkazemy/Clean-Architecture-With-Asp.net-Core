@@ -1,0 +1,17 @@
+﻿@page
+@model ChatHistory.Views.Home.MinuteByMinuteHistoryModel
+@{
+}
+@if (ViewBag.MinuteByMinuteData != null)
+{
+    <table border="1" cellpadding="10">
+        @foreach (var minuteByMinuteItem in ViewBag.MinuteByMinuteData)
+        {
+            <tr>
+                <td style="color :red">@minuteByMinuteItem.Value</td>
+                <td>@minuteByMinuteItem.Text</td>
+            </tr>
+        }
+
+    </table>
+}
